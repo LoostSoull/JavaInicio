@@ -1,4 +1,4 @@
-package br.com.fiap.tds;
+
 import java.util.Scanner;
 public class CalculoImc {
 	
@@ -8,6 +8,7 @@ public class CalculoImc {
 		double peso;
 		Scanner leia = new Scanner(System.in);
 		
+		
 		System.out.println("Digite a sua altura");
 		altura =leia.nextDouble();
 		
@@ -16,7 +17,7 @@ public class CalculoImc {
 		
 	   double resultado;
 	   resultado = peso / (altura*altura);
-	   System.out.println("o resultado é " + resultado);
+	   System.out.println("o resultado  " + resultado);
 	   
 	   if(peso == 18.5 || peso < 25) {
 	       	System.out.println("voce esta no peso ideial");
